@@ -1,0 +1,130 @@
+{
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "editor.wordWrap": "on",
+    "vscode-pets.throwBallWithMouse": true,
+    "vscode-pets.petType": "fox",
+    "vscode-pets.petSize": "small",
+    "workbench.settings.applyToAllProfiles": [
+
+    ],
+    "debug.inlineValues": "on",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.accessibilitySupport": "on",
+    "audioCues.chatResponsePending": "off",
+    "audioCues.volume": 0,
+    "launch": {
+        "configurations": [],
+        "compounds": []
+    },
+    "42header.email": "mho@student.42kl.edu.my",
+    "42header.username": "mho",
+    "editor.tokenColorCustomizations": {
+        "comments": "#d554b0"
+    },
+    "editor.codeActionsOnSave": {
+
+
+
+
+    },
+    "editor.tabSize": 4,
+    "editor.insertSpaces": false,
+    "editor.renderWhitespace": "all",
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "[c]": {
+        "editor.defaultFormatter": "keyhr.42-c-format"
+    },
+    "vscode-pets.petColor": "white",
+    "terminal.integrated.env.osx": {},
+    "console-ninja.darkTheme.error.decorationAttachmentRenderOptions": {
+
+        "border": null,
+        "borderColor": null,
+        "fontStyle": null,
+        "fontWeight": null,
+        "textDecoration": null,
+        "color": "#fe536a",
+        "backgroundColor": null,
+        "margin": "1em",
+        "width": null,
+        "height": null
+    },
+    "console-ninja.allowedHosts": [
+        "localhost"
+    ],
+    "console-ninja.featureSet": "Community",
+    "github.copilot.editor.enableAutoCompletions": false,
+    "angular2-switcher.openSideBySide": true,
+    "angular2-switcher.styleFormats": [
+        ".scss",
+        ".sass",
+        ".less",
+        ".css"
+    ],
+    "window.zoomLevel": -1,
+    "editor.minimap.enabled": false,
+    "workbench.sideBar.location": "right",
+    "editor.lineNumbers": "relative",
+    "vim.foldfix": true,
+    "vim.leader": "<Space>",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        // Navigation, switch between buffers
+        {"before": ["<S-h>"], "commands": [":bprevious"] },
+        {"before": ["<S-l>"], "commands": [":bnext"] },
+
+        //pagedown and up
+        {"before": ["<C-d>"], "after": ["<C-d>", "z", "z"]},
+        {"before": ["<C-u>"], "after": ["<C-u>", "z", "z"]},
+
+        //Splits
+        {"before": ["leader", "v"], "commands": [":vsplit"] },
+        {"before": ["leader", "s"], "commands": [":split"] },
+
+        //panes
+        {
+            "before": ["leader", "h"],
+            "commands": ["workbench.action.focusLeftGroup"]
+        },
+        {
+            "before": ["leader", "j"],
+            "commands": ["workbench.action.focusBelowGroup"]
+        },
+        {
+            "before": ["leader", "k"],
+            "commands": ["workbench.action.focusAboveGroup"]
+        },
+        {
+            "before": ["leader", "l"],
+            "commands": ["workbench.action.focusRightGroup"]
+        },
+
+        //file tree
+        {
+            "before": ["leader", "n", "e"],
+            "commands": ["workbench.explorer.fileView.focus"]
+        },
+
+        //Nice to have
+        { "before": ["leader", "w"], "commands": [":w!"] },
+        { "before": ["leader", "q"], "commands": [":q!"] },
+        { "before": ["leader", "x"], "commands": [":x!"] },
+        { "before": ["leader", "p"], "after": ["\"", "_", "d", "p"]},
+        {
+            "before": ["<leader>", "c", "a"],
+            "commands": ["editor.action.quickFix"]
+        },
+        { "before": ["leader", "f"], "commands": ["workbench.action.quickOpen"] },
+        {
+        "before": ["g", "h"],
+        "commands": ["editor.action.showDefinitionPreviewHover"]
+        },
+        {
+            "before": ["]", "d"],
+            "commands": ["editor.action.marker.next"]
+        },
+    ]
+}
