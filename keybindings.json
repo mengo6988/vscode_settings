@@ -137,5 +137,39 @@
 		"key": "ctrl+w",
 		"command": "workbench.action.terminal.kill",
 		"when": "terminalFocus"
+	},
+	{
+		"key": "shift+cmd+h",
+		"command": "workbench.action.minimizeOtherEditors"
+	},
+	{
+		"key": "ctrl+h",
+		"command": "workbench.action.terminal.focusNext",
+		"when": "terminalFocus"
+	},
+	{
+		"key": "ctrl+l",
+		"command": "workbench.action.terminal.focusPrevious",
+		"when": "terminalFocus"
+	},
+	{
+		"key": "ctrl+shift+h",
+		"command": "workbench.action.terminal.focusNextPane",
+		"when": "terminalFocus"
+	},
+	{
+		"key": "ctrl+shift+l",
+		"command": "workbench.action.terminal.focusPreviousPane",
+		"when": "terminalFocus"
+	},
+	{
+		"key": "ctrl+shift+s",
+		"command": "workbench.action.terminal.split",
+		"when": "terminalFocus"
+	},
+	{
+		"key": "ctrl+shift+n",
+		"command": "workbench.action.terminal.new",
+		"when": "terminalFocus"
 	}
 ]

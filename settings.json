@@ -65,7 +65,6 @@
         ".less",
         ".css"
     ],
-    "window.zoomLevel": -1,
     "editor.minimap.enabled": false,
     "workbench.sideBar.location": "right",
     "editor.lineNumbers": "relative",
@@ -126,5 +125,6 @@
             "before": ["]", "d"],
             "commands": ["editor.action.marker.next"]
         },
-    ]
+    ],
+    "window.zoomLevel": -1
 }
